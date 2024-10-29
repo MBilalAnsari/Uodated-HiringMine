@@ -1,0 +1,20 @@
+.subfooter {
+    display: flex;
+    justify-content: space-between; 
+    margin: 60px auto;
+    max-width: 1200px;
+    padding: 20px; 
+    /* border: solid; */
+}
+
+.borderr {
+    /* border: 2px solid #6851FF;   */
+    margin: auto ;; /* Add horizontal margin between columns */
+    padding: 20px; /* Add padding for content */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}

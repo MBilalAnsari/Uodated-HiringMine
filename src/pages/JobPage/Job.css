@@ -1,0 +1,71 @@
+.border-t{
+    margin: auto;
+}
+
+.card-main- {
+    /* border: solid; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three columns */
+    gap: 10px;
+    box-sizing: border-box; /* Ensures padding is inside the container */
+    width: 1200px;
+    margin: auto !important;
+    margin-top: 60px !important;
+}
+
+.card- {
+    /* border: solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 1 300px;
+    margin-top: 10px;
+    max-width: 590px;
+    height: 270px;
+    background: #fff;
+    box-shadow: 0 0px 20px 10px rgba(0,0,0, 0.1);
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.card-header- {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text-content- {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-title- {
+    font-weight: bolder;
+    font-size: calc(18px);
+}
+
+.job-salary- {
+    font-weight: bold;
+    color: blue;
+}
+
+.job-logo- {
+    width: 50px;
+    height: 30px;
+}
+
+.card-footer- {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card-footer- p{
+    font-size: calc(16px) !important;
+    color: #333!important;
+
+}

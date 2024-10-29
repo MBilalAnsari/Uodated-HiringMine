@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    /* background: #a59797; */
+
+}
+
+.h1 {
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 80px !important;
+    line-height: 100px;
+    letter-spacing: -.02em;
+    text-align: center;
+    background: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bg-home {
+    width: 100%;
+    padding-top: 30px;
+    background-image: linear-gradient(180deg, #ffffff 0%, #eeebff 69.79%, #ebe8ff 99.99%, #e1deff 100%);
+}
+
+.P-main {
+    width: inherit !important;
+}
+
+.Para {
+    margin: 16px 0px 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.00938em;
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.inp-bar {
+    display: flex;
+    border: rgb(161, 161, 161) solid 0.1px;
+    border-radius: 4px;
+    width: 600px;
+    margin: 24px auto;
+    padding: 7px;
+}
+
+.inp-bar input {
+    background-color: inherit;
+    width: 100%;
+    outline: none;
+}
+
+.inp-bar img {
+    margin: auto;
+    max-width: 19.29px;
+    height: 17.2px;
+}
+
+.job-btn button {
+    border: none;
+    border-radius: 20px;
+    /* padding: 10px 24px; */
+    font-weight: bold;
+    background-color: #6851FF;
+    color: white;
+    width: 130px;
+    height: 44px;
+}
+
+.popular-searches {
+    width: inherit !important;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    /* letter-spacing: -.02em; */
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 16px;
+}
+
+.popular-searches h6 {
+    font-size: 30px;
+}
+
+.button-group {
+    width: 70%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button-group button {
+    border: 0.00001px solid rgb(172, 160, 248);
+    ;
+    padding: 5px 8px;
+    border-radius: 5px;
+
+}
+
+.BgImg {
+    width: 100%;
+    ;
+}
+
+
+
+.Get h3 {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight:600;
+    font-size: 2.75rem;
+    line-height: 1.167;
+    letter-spacing: 0em;
+}
+
+.text {
+    color: #6851FF !important
+}
+
+.Get-hired span {
+    color: #6851FF;
+}
+
+.Get {
+    /* border: black solid; */
+    margin: auto;
+    font-weight: 600;
+    color: var(--neutral600);
+    width: 1000px;
+}
+
+.card-main {
+    /* border: black solid;  */
+    margin: 0px 0px !important;
+    width: auto;
+}
+
+/* Main container for the card grid */
+.card-main {
+    /* border: solid; */
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 20px; /* Adds spacing between the cards */
+    padding: 20px; /* Optional: adds padding around the grid */
+}
+
+/* Individual card styling */
+.step-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center content */
+    width: 100%; /* Full width of grid cell */
+    height: 240px; /* Fixed height */
+    background: linear-gradient(180deg, #edebff, hsla(0, 0%, 100%, 0));
+    box-shadow: 0 4px 40px #bdb2ff3d;
+    border-radius: 8px; /* Rounded corners for the card */
+    padding: 20px; /* Padding inside the card */
+}
+
+
+
+
+.step-box:hover {
+    box-shadow: 0px 12px 12px rgba(98, 94, 94, 0.2) !important;
+    /* Enhanced shadow on hover */
+}
+
+.dark .step-box {
+    background-color: #292930;
+}
+
+.icon {
+    margin-bottom: 16px;
+}
+
+.title {
+    margin-bottom: 8px;
+    font-size: 1.125rem;
+    /* text-lg */
+    font-weight: 600;
+    /* font-semibold */
+    color: #1f2937;
+    /* text-gray-900 */
+}
+
+.dark .title {
+    color: white;
+}
+
+.description {
+    color: #4b5563;
+    /* text-gray-600 */
+}
+
+.dark .description {
+    color: white;
+}
+
+.dreamjob-heading-h3 {
+    /* font-weight: 600;
+    color: var(--neutral600);
+    margin: 0 auto; */
+    margin: auto;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.167;
+    letter-spacing: 0em;
+    width: 1000px;
+}
+
+.dreamjob-heading-span {
+    color: #6851FF !;
+}
+
+.dreamjob-heading-para {
+    width: 1000px;
+    margin: auto !important;
+}
+
+.main-banner {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.banner-jpg {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.banner-jpg img {
+    width: 1100px;
+}
+
+body {
+    background: #fff;
+}
+
+
+
+/* chatgpt */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-header p {
+    font-size: 16px;
+    color: #333;
+}   
+
+.card-header img {
+    width: 50px;
+    height: 30px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-subtitle {
+    color: #555;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card-salary {
+    color: #6a00ff;
+}
+
+.card-location {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card-footer-p {
+    justify-content: space-between;
+    display: flex;
+    font-size: 13px;
+    color: #333;
+}
+
+.p-width {
+    width: 300px;
+}
+
+.p-width p {
+    width: 100%;
+}
+
+/* Container for the grid layout */
+.opened-job {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    width: 1000px; /* Restrict to 1000px width */
+    gap: 10px;
+    box-sizing: border-box; /* Ensures padding is inside the container */
+}
+
+/* Individual job card */
+.job-box {
+    transition: box-shadow 0.3s;
+    box-shadow: 0 0 11px rgba(37, 36, 36, 0.2);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 20px; /* Reduced padding to fit better */
+    width: 100%; /* Ensures the card takes up full column width */
+    box-sizing: border-box; /* Prevents extra width from padding */
+}
+
+/* Flex layout for card content */
+.inside-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 220px;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding fits inside */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1000px) {
+    .opened-job {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+        width: 100%; /* Full width on smaller screens */
+        padding: 10px; /* Adds padding to avoid edge touching */
+    }
+}
+
+@media (max-width: 600px) {
+    .opened-job {
+        grid-template-columns: 1fr; /* Single column for very small screens */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .opened-job {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: inherit !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .opened-job {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: inherit !important;
+        /* margin: auto; */
+    }
+}
+
+.job-box:hover {
+    box-shadow: 0 10px 22px rgba(37, 36, 36, 0.2);
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+.main-card img {
+    margin: auto;
+}
+
+.main-card {
+    border: solid rgb(255, 255, 255) 0.5px;
+    padding: 40px;
+    gap: 20px;
+    border-radius: 24px;
+    box-shadow: 0 10px 56px rgba(67, 28, 204, 0.1);
+    margin: 10px;
+    transition-duration: 6ms;
+    text-align: center;
+}
+
+.main-card div,
+p,
+h5 {
+    background-color: inherit;
+}
+
+.main-card:hover {
+    box-shadow: 0 10px 80px rgba(128, 114, 207, 0.25);
+    /* Stronger shadow on hover */
+}
+
+.P-card {
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* height: 220px; */
+
+}
+
+.P-card div {
+    background: linear-gradient(180deg, #edebff, hsla(0, 0%, 100%, 0));
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
